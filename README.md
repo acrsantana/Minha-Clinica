@@ -16,30 +16,26 @@ Alguns recursos do atendimento médico:
 - Visão completa e integrada do histórico do paciente pelos profissionais de saúde, facilitando a tomada de decisão e melhorando a qualidade do atendimento;
 - Possibilidade de monitoramento de indicadores de desempenho e geração de relatórios e análises sobre o funcionamento da clínica e o atendimento aos pacientes.
 
-**Agenda compartilhada:** A agenda compartilhada é uma funcionalidade-chave de um sistema de agendamento de consultas online. Ela permite que médicos, enfermeiros e outros funcionários acessem e gerenciem a agenda de consultas em tempo real.<Br>
+**Agenda compartilhada:** A agenda compartilhada é uma funcionalidade-chave de um sistema de agendamento de consultas _online_. Ela permite que médicos, enfermeiros e outros funcionários acessem e gerenciem a agenda de consultas em tempo real.<BR>
 Recursos de agenda compartilhada:
 - Acesso em tempo real: todos os usuários autorizados, incluindo médicos e funcionários, podem acessar a agenda de consultas em tempo real.
-- Marcação de consultas: tanto os médicos quanto funcionários podem agendar novas consultas diretamente na plataforma, assim como gerenciar todas as solicitações de consulta realizadas de forma autônoma pelos clientes.
-- Controle de disponibilidade: os médicos podem definir suas horas disponíveis e bloquear os horários de indisponibilidade.
-- Notificações automatizadas: o sistema pode enviar notificações por e-mail / SMS automatizadas para médicos e funcionários sobre novas consultas agendadas.
+- Controle de disponibilidade: os médicos podem definir as suas horas disponíveis e bloquear os horários de indisponibilidade.
 - Relatórios: o sistema fornece relatórios detalhados sobre o número de consultas agendadas, horários ocupados e outras métricas importantes.
-- Permissões de usuário: o sistema permite a configuração de permissões de usuário para controlar quem tem acesso à agenda compartilhada e a quais informações.
-
-**Marcação de consultas:** As consultas podem ser marcadas tanto de forma online, onde os pacientes podem agendar consultas através da plataforma sem precisar ligar ou enviar e-mails, assim como podem ser marcadas pelo time de planejamento da clínica.<BR>
+- Calendário compartilhado: permitir que os profissionais de saúde visualizem a sua agenda de consultas de maneira clara e fácil, e compartilhem a agenda com outros profissionais, se necessário.
+- 
+**Marcação de consultas:** As consultas podem ser marcadas tanto de forma _online_, onde os pacientes podem agendar os atendimentos através da plataforma sem precisar ligar ou enviar e-mails, assim como podem ser marcadas pelo time de planejamento da clínica.<BR>
 A funcionalidade de marcação de consultas deve incluir os seguintes recursos básicos:
-- Escolha de horário disponível: Permitir que os pacientes / planejadores escolham o horário de sua consulta de acordo com a disponibilidade de horários oferecidos pelo profissional.
-- Confirmação automática: Enviar uma confirmação automática para o paciente e para o médico assim que a consulta for marcada, para garantir que todos tenham uma confirmação oficial da consulta.
-- Calendário compartilhado: Permitir que os profissionais de saúde visualizem sua agenda de consultas de maneira clara e fácil, e compartilhem a agenda com outros profissionais, se necessário.
-- Notificações por e-mail ou SMS: Enviar notificações por e-mail / SMS para os pacientes e médicos antes da consulta, para lembrá-los da data e horário da consulta.
-- Informações de paciente: Armazenar informações básicas do paciente, como nome, endereço e número de telefone, para que seja possível entrar em contato com ele em caso de necessidade.
-
+- Marcação de consultas: tanto os pacientes quanto os profissionais de saúde e funcionários do planejamento podem agendar novas consultas diretamente na plataforma, assim como gerenciar todas as solicitações de consulta realizadas de forma autônoma pelos clientes.
+- Escolha de horário disponível: permitir que os pacientes / planejadores escolham o horário da consulta conforme a disponibilidade de horários oferecidos pelo profissional de saúde.
+- Confirmação automática: enviar uma confirmação automática para o paciente e para o médico assim que a consulta for marcada, para garantir que todos tenham uma notificação oficial da consulta.
+- Informações de paciente: armazenar informações básicas do paciente, como nome, endereço e número de telefone, para ser possível entrar em contato com ele em caso de necessidade.
+- Listar pacientes com consultas marcadas e que ainda não confirmaram presença
+ 
 **Gerenciamento de pacientes:** O sistema armazena informações importantes sobre os pacientes, incluindo informações de contato e registro das consultas e histórico de atendimento.<BR>
 A funcionalidade de gerenciamento de pacientes deve incluir os seguintes recursos básicos:
-- Cadastro de pacientes: Permitir que os pacientes sejam cadastrados no sistema, incluindo informações como nome, endereço, telefone, e-mail, histórico médico e outras informações relevantes.
-- Gerenciamento de informações de pacientes: Permitir que os profissionais de saúde acessem, atualizem e gerenciem as informações dos pacientes, incluindo informações médicas e de contato.
-- Histórico de consultas: Armazenar o histórico de todas as consultas realizadas com cada paciente, incluindo informações como data, horário, profissional de saúde e relatório da consulta.
-- Agenda de pacientes: Permitir que os profissionais de saúde acessem a agenda de consultas de cada paciente, para ver quais consultas já foram agendadas e quais ainda estão pendentes.
-- Geração de relatórios: Gerar relatórios com informações relevantes sobre os pacientes, incluindo informações demográficas, histórico médico e histórico de consultas.
+- Cadastro de pacientes: permitir que os pacientes sejam cadastrados no sistema, incluindo informações como nome, endereço, telefone, e-mail, histórico médico e outras informações relevantes.
+- Gerenciamento de informações de pacientes: permitir que os profissionais de saúde acessem, atualizem e gerenciem as informações dos pacientes, incluindo informações médicas e de contato.
+- Geração de relatórios: gerar relatórios com informações relevantes sobre os pacientes, incluindo informações demográficas, histórico médico e histórico de consultas.
 
 **Gerenciamento de médicos:** o sistema armazena informações importantes sobre os médicos, incluindo informações de contato e registro das consultas e histórico de atendimento.<BR>
 A funcionalidade de gerenciamento de médicos deve incluir os seguintes recursos básicos:
@@ -64,7 +60,5 @@ Algumas das principais features desta funcionalidade são:
 - Configuração de notificações por e-mail ou SMS: O sistema deve permitir que o usuário escolha o método de notificação que deseja receber, seja por e-mail ou mensagem de texto.
 - Notificação de consultas agendadas: O sistema deve enviar notificações para os pacientes com informações detalhadas sobre a consulta, como data, horário e profissional de saúde responsável.
 - Lembretes de consultas: O sistema deve enviar lembretes para os pacientes e médicos antes da consulta, para evitar esquecimentos e ausências.
-- Notificação de exames e procedimentos: O sistema deve notificar os pacientes sobre exames e procedimentos marcados, informando as orientações necessárias para preparação, como jejum ou necessidade de acompanhante.
 - Confirmação de presença: O sistema deve permitir que os pacientes confirmem a presença na consulta ou exame, para que a clínica possa se planejar adequadamente.
-- Notificação de resultados de exames: O sistema deve notificar os pacientes quando os resultados dos exames estiverem disponíveis, permitindo que eles possam acompanhar a evolução do tratamento.
 - Notificação de cancelamento ou reagendamento: O sistema deve notificar os pacientes sobre mudanças de horário, cancelamentos ou reagendamentos de consultas e procedimentos, minimizando possíveis transtornos. Em caso de cancelamentos online realizados pelo próprio paciente, o médico deve receber a notificação.
